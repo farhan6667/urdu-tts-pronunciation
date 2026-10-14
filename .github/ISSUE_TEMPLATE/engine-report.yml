@@ -1,0 +1,35 @@
+name: Engine report, how it went with your TTS
+description: Tried the checks with your voice engine? Tell us what was right and what was wrong.
+title: "Engine: "
+labels: ["compatibility"]
+body:
+  - type: input
+    id: engine
+    attributes:
+      label: TTS engine, voice and language setting
+      placeholder: Piper ur_PK, ElevenLabs v3, XTTS v2 ...
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Did check_takes.py pick the take a listener would pick?
+      options:
+        - Yes, every time
+        - Mostly
+        - Sometimes
+        - No
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: What was right, what was wrong
+      description: Which checks gave false alarms or missed a bad word. Paste the EN and HI lines if you can.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS, Python version, Whisper model
+      placeholder: Windows 11, Python 3.12, small

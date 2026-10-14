@@ -1,0 +1,14 @@
+urdu-tts-pronunciation
+Copyright 2026 Syed Farhan Ahmed (SFA), NexaForge
+https://nexaforge.eu.cc/
+
+This product includes software developed by Syed Farhan Ahmed (SFA) at NexaForge.
+It is an independent project and is not affiliated with OpenAI, SYSTRAN, ElevenLabs,
+Microsoft, Google or any text-to-speech provider it mentions.
+The code and data are under the MIT License (see LICENSE). The NexaForge and SFA names
+and logos are not part of that licence and may not be used to endorse derived products.
+
+Third-party software it can use (not included here):
+- faster-whisper (https://github.com/SYSTRAN/faster-whisper): MIT.
+- Whisper models by OpenAI: MIT.
+- FFmpeg (https://ffmpeg.org): LGPL/GPL, installed separately by the user.

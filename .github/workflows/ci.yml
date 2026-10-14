@@ -1,0 +1,35 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.9", "3.13"]
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Tests
+        run: python -m unittest discover -s tests -v
+      - name: Lint a sample script
+        working-directory: skills/urdu-tts-pronunciation/scripts
+        shell: bash
+        run: |
+          printf 'اپنا خفیہ پن کسی کو نہ دیں۔\n' > bad.txt
+          if python lint_script.py bad.txt; then echo "expected problems"; exit 1; fi
+          printf 'اپنا خُفیہ پِن کسی کو نہ بتائیے۔\n' > good.txt
+          python lint_script.py good.txt

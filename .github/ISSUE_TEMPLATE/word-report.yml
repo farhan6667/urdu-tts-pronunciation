@@ -1,0 +1,42 @@
+name: Word report, a word the voice says wrong
+description: The most useful report. One word or phrase, what the voice said, and what fixed it.
+title: "Word: "
+labels: ["word report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. One word per report is easiest to add. A word that is still broken is welcome too.
+        Please don't attach voice recordings of real people without their consent.
+  - type: input
+    id: word
+    attributes:
+      label: The word or phrase, as written in the script (Urdu script)
+      placeholder: خفیہ
+    validations:
+      required: true
+  - type: input
+    id: wrong
+    attributes:
+      label: What the voice said, in Latin letters
+      placeholder: khafiya (should be khufiya)
+    validations:
+      required: true
+  - type: input
+    id: fix
+    attributes:
+      label: The spelling or wording that fixed it (if you found one)
+      placeholder: خُفیہ
+  - type: input
+    id: engine
+    attributes:
+      label: TTS engine and voice
+      placeholder: ElevenLabs Multilingual v2, Azure ur-PK-UzmaNeural, OmniVoice clone ...
+    validations:
+      required: true
+  - type: textarea
+    id: whisper
+    attributes:
+      label: What check_takes.py printed (optional)
+      description: The EN and HI lines help us write a check pattern.
+      render: text

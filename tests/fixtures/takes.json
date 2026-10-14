@@ -1,0 +1,118 @@
+{
+ "about": "Real Whisper transcripts (small model) of 8 takes of one Urdu line made with an OmniVoice voice clone, 2026-10-14. A listener approved only take 2. Used to test check_take() without audio.",
+ "script": "اور چند باتیں ہمیشہ یاد رکھیے۔ واٹس ایپ کا چھ ہندسوں والا کوڈ کسی کو نہ بتائیے، چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے۔ اپنے واٹس ایپ پر ٹو سٹیپ ویریفکیشن، یعنی اپنا خُفیہ پِن، لازمی آن رکھیے۔ اور اگر کوئی عزیز میسج پر پیسے مانگے، تو پہلے فون کر کے تصدیق کر لیجیے۔",
+ "takes": [
+  {
+   "take": "p8_t0.wav",
+   "ur": "اور چند باتیں ہمیشہ یاد رکھیے واٹس ایپ کا چھے ہنسو والا کوٹ کسی کو نہ بتائیے چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے اپنے واٹس ایپ پر تو سٹیپ ویریفکیشن یعنی اپنا خفیا پن لازمی آن رکھیے اور اگر کوئی ازیز میسج پر پیسے مانگے تو پہلے فون کر کے تصدیق کر لیجیے",
+   "en": "And remember a few things. Don't tell anyone the code of the Wattus app. Even if they don't ask for it in the name of security. On your Wattus app, do a two-stip verification. That is, keep your Khofiya pin in your hand. And if someone asks for money on an e-message, then first call and verify it.",
+   "hi": "और चन्द बातें हमेशा याद रख्ये वाटिस एप का चे हिन्सो वाला कोड किसी को नब दाएगे चाहे कोई सिक्वोटी के नाम पर ही क्यो ना मांगे अपने वाटिस एप प पर तूस्टेप वेरिफकेशन यानी अपना खुफ्या पिन लाज्मी आन रख्ये और अगर कोई अजीज मेसच पर पैसे मांगे तो पहले फोन कर के तस्दीख कर लिजीए",
+   "old_checks": {
+    "no_repeat": true,
+    "no_stall": true,
+    "whatsapp_ep": false,
+    "khufiya": true,
+    "pin": true,
+    "step": true
+   }
+  },
+  {
+   "take": "p8_t1.wav",
+   "ur": "اور چند باتیں ہمیشہ یاد رکھئیے واٹس ایپ کا چھے ہندسوں والا کوڑ کسی کو نہ بتائیے چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے اپنے واٹس ایپ پر 2 سٹیپ ویریفیکیشن یعنی اپنا خفیہ پن لازمی آن رکھیے اور اگر کوئی ازیز میسج پر پیسے مانگے تو پہلے فون کر کے تصدیق کر لیجیے",
+   "en": "And always remember a few things. Don't tell anyone the code of the Watt's app. Even if they don't ask for it in the name of security. Check your Watt's app for two-stage verification, i.e. keep your Khufya pin in your hand. And if someone asks for money on an e-message, then first call and confirm it.",
+   "hi": "और चन्द बाते हमेशा याद रख्ये वाट्स आप का चे हिन्सों वाला कोड किसी को न बताये चाहे कोई सेक्वर्टी के नाम पर ही क्यों न वांगे अपने वाट्स आप प पर तूस्टेप वेरिफिकेशन यानी अपना खुफ्या पिन लाज्मी आन रख्ये और अगर कोई अजीज मेसच पर पैसे मांगे तो पहले फोन कर के तस्दीख कर लीजिये",
+   "old_checks": {
+    "no_repeat": true,
+    "no_stall": true,
+    "whatsapp_ep": false,
+    "khufiya": true,
+    "pin": true,
+    "step": true
+   }
+  },
+  {
+   "take": "p8_t2.wav",
+   "ur": "اور چند باتیں ہمیشہ یاد رکھیے وات سپ کا چھے ہندسوں والا کوڑ کسی کو نہ بتائیے چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے اپنے وات سپ پر توو سٹیپ ویریفکیشن یعنی اپنا خفیہ پن لازمی آن رکھیے اور اگر کوئی ازیز میسج پر پیسے مانگے تو پہلے فون کر کے تصدیق کر لیجیے",
+   "en": "And keep in mind a few things. 6. Don't tell anyone the code of WhatsApp 6. Even if they don't ask for security. 2-stap verification on your WhatsApp, i.e. your secret pin. Make sure to keep in mind. And if someone asks for money on an e-message, then make sure to contact them first.",
+   "hi": "और चन्द बाते हमेशा याद रख्ये वाट्सेप का चे, हिंसों वाला कोड किसी को ना बताये चाहे कोई सिक्वर्टी के नाम पर ही क्यों ना मांगे अपने वाट्सेप पर तूस्टेप वरिप्केशन यानी अपना खुफिया पिन लाज्मी आन रख्ये और अगर, कोई अजीज मेसच पर पैसे मांगे, तो पहले फोन कर के तस्दीक कर लिजिये",
+   "old_checks": {
+    "no_repeat": true,
+    "no_stall": true,
+    "whatsapp_ep": true,
+    "khufiya": true,
+    "pin": true,
+    "step": true
+   }
+  },
+  {
+   "take": "p8_t3.wav",
+   "ur": "اور چند باتیں ہمیشہ یاد رکھیے وٹ سپ کا چھے ہنسو والا کوڑ کسی کو نہ بتایے چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے اپنے وٹ سپ پر توس ٹیپ ویریفکیشن یعنی اپنا خفیہ پن لازمی آن رکھیے اور اگر کوئی ازیز میسج پر پیسے مانگے تو پہلے فون کر کے تصدیق کر لیجیے",
+   "en": "And keep in mind a few things. No one should be asked for a security code of WhatsApp's 6-inch code. Toe-stap verification on your WhatsApp, i.e. on your password, should be on. And if any stranger asks for money on the message, then first call and verify.",
+   "hi": "और चन्द बाते हमेशा याद रख्ये वाट्सेप का चे हिंसो वाला कोड किसी को न बताये चाहे कोई सेकिवर्टी के नाम पर ही क्यो न वांगे अपने वाट्सेप पर तोस टेप वारिफकेशन यानी अपना खुफिया पिन लाज्मी ओन रख्ये और अगर कोई अजीज मैसच पर पैसे मांगे तो पहले फोन कर के तस्दीख कर लिजिये",
+   "old_checks": {
+    "no_repeat": true,
+    "no_stall": true,
+    "whatsapp_ep": true,
+    "khufiya": true,
+    "pin": true,
+    "step": false
+   }
+  },
+  {
+   "take": "p8_t4.wav",
+   "ur": "اور چند باتیں ہمیشہ یاد رکھئیے واٹس ایپ کا چھے ہندسوں والا کود کسی کو نہ بتائیے چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے اپنے واٹس ایپ پر توو سٹیپ ویریفکیشن یعنی اپنا خفیہ پن لازمی آن رکھیے اور اگر کوئی ازیز میسج پر پیسے مانگے تو پہلے فون کر کے تصدیق کر لیجیے",
+   "en": "And keep in mind a few things. Don't tell anyone about the 6 hints of the Watts app. Even if they don't ask for it in the name of security. Keep in mind the 2 steep verification on your Watts app. And if you want to ask for money on a message, then call and verify it first.",
+   "hi": "और चन्द बाते हमेशा याद रख्ये वाट्स आप का चे हिन्सो वाला कोड किसी को न बताये चाहे कोई सेकिवरेटी के नाम पर ही क्यो न वांगे अपने वाट्स आप पर तू स्टीप वेरिटिकेशन यानी अपना खुफ्या पिन लाज्मी आन रख्ये और अगर कोई आजीज मेसच पर पैसे मागे तो पहले फोन कर के तस्दीख कर लिजिये",
+   "old_checks": {
+    "no_repeat": true,
+    "no_stall": true,
+    "whatsapp_ep": false,
+    "khufiya": true,
+    "pin": true,
+    "step": false
+   }
+  },
+  {
+   "take": "p8_t5.wav",
+   "ur": "اور چند باتیں ہمیشہ یاد رکھیے واٹس ایپ کا چھے ہندوسوں والا کوڑ کسی کو نہ بتائیے چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے اپنے واٹس ایپ پر توسٹیپ ویریفکیشن یعنی اپنا خفیہ پن لازمی آن رکھیے اور اگر کوئی ازیز میسج پر پیسے مانگے تو پہلے فون کر کے تصدیق کر لیجیے",
+   "en": "And always remember a few things. Don't tell anyone the code of the Wattus app. Even if you don't ask for it in the name of security. Toast tape verification on your Wattus app. That is, keep your Khofiya pin in your hand. And if you want any extra money, then call and verify it first.",
+   "hi": "और चन्द बाते हमेशा याद रखिये वोटिस आप का चे हिन्दुसों वाला कोड किसी को न बताएए चाहे कोई सिकिवर्टी के नाम पर ही क्यों न वांगे अपने वोटिस आप प पर तोस टेप वेरिप्केशन यानी अपना खुफ्या पिन लाज्मी आन रखिये और अगर कोई अजीज मैसच पर पैसे मांगे तो पहले फोन कर के तस्दीक कर लिए",
+   "old_checks": {
+    "no_repeat": true,
+    "no_stall": true,
+    "whatsapp_ep": false,
+    "khufiya": true,
+    "pin": true,
+    "step": false
+   }
+  },
+  {
+   "take": "p8_t6.wav",
+   "ur": "اور چند باتیں ہمیشہ یاد رکھیے واٹ ایکس ایپ کا چھے ہندسوں والا کوٹ کسی کو نہ بتائیے چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے اپنے واٹس ایپ پر توو سٹیپ ویریفکیشن یعنی اپنا خفیہ پن لازمی آن رکھیے اور اگر کوئی ازیز میسج پر پیسے مانگے تو پہلے فون کر کے تصدیق کر لیجیے",
+   "en": "And remember a few things. Don't tell anyone the code of the Watt X app. Even if they don't ask for it in the name of security. Check your Watt's app for two-stage verification. That is, keep your secret password on. And if someone asks for money on an e-message, then first call and confirm it.",
+   "hi": "और चन्द बाते हमेशा याद रख है वोट एक्स आप का चे हिंदुसों वाला कोट किसी को न बताये चाहे कोई सिक्वर्टी के नाम पर ही क्यों न वांगे अपने वोट्स आप पर तुस टेप वरिफकेशन यानी अपना खुफिया पिन लाज्मी आन रख है और अगर कोई अजीस मेसेच पर पैसे मांगे, तो पहले फोन कर के तस्दीक कर लिजिये",
+   "old_checks": {
+    "no_repeat": true,
+    "no_stall": true,
+    "whatsapp_ep": false,
+    "khufiya": true,
+    "pin": true,
+    "step": false
+   }
+  },
+  {
+   "take": "p8_t7.wav",
+   "ur": "اور چند باتیں ہمیشہ یاد رکھیے واٹس ایپ کا چھے ہندسوں والا کوٹ کسی کو نہ بتائیے چاہے کوئی سیکیورٹی کے نام پر ہی کیوں نہ مانگے اپنے واٹس ایپ پر توو سٹیپ ویریفکیشن یعنی اپنا خفیہ پن لازمی آن رکھیے اور اگر کوئی ازیز میسج پر پیسے مانگے تو پہلے فون کر کے تصدیق کر لیجیے",
+   "en": "And always remember a few things. Don't tell anyone the code of the Watt's app. Even if they don't ask for it in the name of security. On your Watt's app, 2- Steep verification, i.e. on your password, keep it on. And if someone asks for money on an e-message, then first call and confirm.",
+   "hi": "और चन्द बाते हमेशा याद रखिये वाट्स आप का च्छे हिंदसों वाला कोट किसी को ना बताए ये चाहे कोई सेक्वरेटी के नाम पर ही क्यो ना मांगे अपने वाट्स आप पर, 2-steep verification, यानी अपना खुफ्या पिन लाज्मी आन रखिये और अगर कोई आजीज मैसच पर पैसे मांगे, तो पहले फोन कर के तस्दिक कर लिजिये",
+   "old_checks": {
+    "no_repeat": true,
+    "no_stall": true,
+    "whatsapp_ep": false,
+    "khufiya": true,
+    "pin": true,
+    "step": false
+   }
+  }
+ ]
+}

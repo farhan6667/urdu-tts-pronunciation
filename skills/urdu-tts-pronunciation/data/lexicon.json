@@ -1,0 +1,181 @@
+{
+  "about": "Urdu words AI voices say wrong, and the spelling that fixes each. Every entry came from a real take that went wrong. check_takes.py uses the regexes under 'heard' to tell a good take from a bad one; lint_script.py uses 'find' to warn before any audio is made.",
+  "source": "Unless a rule says otherwise, every rule was heard with one OmniVoice voice clone (2026-10). Other engines guess vowels the same way, but not always on the same words.",
+  "rules": [
+    {
+      "id": "khufiya",
+      "find": "خفیہ",
+      "use": "خُفیہ",
+      "roman": "khufiya (secret)",
+      "wrong": "khafiya",
+      "why": "Without the pesh the voice reads 'khafiya'. With it, takes say 'khufiya'. ذاتی is a safe alternative.",
+      "heard": {
+        "hi_good": "ख़?ुफ|खूफ",
+        "hi_bad": "\\bख़?फ्?य|खफी"
+      }
+    },
+    {
+      "id": "pin",
+      "find": "پن",
+      "use": "پِن",
+      "roman": "pin (PIN)",
+      "wrong": "pan",
+      "why": "PIN written without a zer is read 'pan'.",
+      "heard": {
+        "any_good": "पिन|पिं|\\bpin\\b",
+        "any_bad": "(?<![ऀ-ॿ])पन(?![ऀ-ॿ])|\\bpan\\b"
+      },
+      "level": "fix"
+    },
+    {
+      "id": "step",
+      "find": "اسٹیپ",
+      "use": "سٹیپ",
+      "roman": "step (as in two-step)",
+      "wrong": "steep",
+      "why": "The alif in اسٹیپ turns 'two step' into 'two steep'.",
+      "heard": {
+        "any_good": "स्टेप|स्तेप|\\bstep",
+        "any_bad": "स्टीप|स्टीब|steep"
+      }
+    },
+    {
+      "id": "click",
+      "find": "کلک",
+      "use": "منتخب کیجیے / دبائیے / کھولیے",
+      "roman": "click",
+      "wrong": "kil",
+      "why": "'Click' comes out as 'kil'. Write around it; Urdu has good words for the action."
+    },
+    {
+      "id": "department",
+      "find": "ڈیپارٹمنٹ",
+      "use": "شعبۂ ...",
+      "roman": "department",
+      "wrong": "dipartment (soft dental d)",
+      "why": "The voice never makes the hard ڈ here, in every spelling tried (Urdu, Latin, ARPAbet). Write شعبہ instead, or warn the person first.",
+      "heard": {
+        "hi_good": "ड[िी]?पा?र्?ट",
+        "hi_bad": "द[िी]?पा?र्?ट",
+        "any_good": "ड[िी]?पा?र्?ट|\\bdepartment"
+      },
+      "fixable": false
+    },
+    {
+      "id": "chheen",
+      "find": "چھن جائے",
+      "use": "چھین لے",
+      "roman": "chheen le (snatch)",
+      "wrong": "chhan",
+      "why": "چھن is read 'chhan'. چھین carries the ی and can't be misread."
+    },
+    {
+      "id": "page",
+      "find": "صفحہ",
+      "use": "پیج",
+      "roman": "page",
+      "wrong": "sufa",
+      "why": "Heard as 'sufa'. Most people say پیج anyway. It changes the register, so offer it to the person rather than applying it silently.",
+      "fixable": false
+    },
+    {
+      "id": "khuda-na-khwasta",
+      "find": "خدانخواستہ",
+      "use": "خدا نخواستہ",
+      "roman": "khuda-na-khwasta (God forbid)",
+      "wrong": "khudaan-khaasta",
+      "why": "The joined form runs together. Two words read cleanly."
+    },
+    {
+      "id": "whatsapp",
+      "find": "واٹس ایپ",
+      "use": "واٹس ایپ",
+      "roman": "WhatsApp",
+      "wrong": "wats-aap (as in Urdu آپ)",
+      "why": "Spelling doesn't fix this one; takes vary. Check every take: English must hear 'WhatsApp' as many times as the script says it, and Devanagari must not show आप.",
+      "heard": {
+        "en_count": "whats\\s*-?\\s*app|what's\\s*app|watts?\\s*app|watt's\\s*app",
+        "hi_bad": "(वा|वो|वॉ)\\S*(ट्स|ट्टिस|टिस|टस|ट़स|र्टिस)\\s*,?\\s+(आप)(?![ऀ-ॿ])"
+      }
+    },
+    {
+      "id": "cyber",
+      "find": "سائبر",
+      "use": "سائبر",
+      "roman": "cyber",
+      "wrong": "sawbar",
+      "why": "Usually fine. Never put a comma between سائبر and سیکیورٹی: it makes a pause.",
+      "heard": {
+        "any_good": "सा[इईय]बर|cyber"
+      }
+    }
+  ],
+  "latin_letters": {
+    "why": "Latin letters inside Urdu text are read unpredictably. Spell acronyms and English words in Urdu letters.",
+    "examples": {
+      "NCCIA": "این سی سی آئی اے",
+      "2FA": "ٹو سٹیپ ویریفکیشن",
+      "OTP": "او ٹی پی"
+    }
+  },
+  "numbers": {
+    "why": "Engines read digits in Urdu unreliably, and words also set the register. Write numbers, dates, times and amounts as words. For example 15 مارچ 2026 becomes پندرہ مارچ، دو ہزار چھبیس, and Rs. 500 becomes پانچ سو روپے.",
+    "examples": {
+      "3:30": "ساڑھے تین بجے",
+      "1:30": "ڈیڑھ بجے",
+      "2:30": "ڈھائی بجے",
+      "4:15": "سوا چار بجے",
+      "4:45": "پونے پانچ بجے",
+      "500": "پانچ سو",
+      "1,500": "پندرہ سو",
+      "25%": "پچیس فیصد",
+      "2026ء": "دو ہزار چھبیس عیسوی",
+      "1447ھ": "چودہ سو سینتالیس ہجری"
+    }
+  },
+  "honorifics": {
+    "why": "Honorific signs are special characters that engines may skip silently. Write them out in full, in the organisation's own form. The form of ؑ ؓ ؒ depends on who is meant (عنہ for a man, عنہا for a woman, عنہم for a group), so --fix leaves those for a person.",
+    "signs": {
+      "ﷺ": "صلی اللہ علیہ وآلہ وسلم",
+      "ؐ": "صلی اللہ علیہ وآلہ وسلم",
+      "ﷻ": "جل جلالہ",
+      "ؑ": "علیہ السلام / علیہا السلام",
+      "ؓ": "رضی اللہ عنہ / عنہا / عنہم / عنہما",
+      "ؒ": "رحمۃ اللہ علیہ / علیہا"
+    },
+    "fixable": [
+      "ﷺ",
+      "ؐ",
+      "ﷻ"
+    ]
+  },
+  "polite_imperatives": {
+    "why": "A final ں drops at a pause: دیں came out as دی, نہ دیں as ندی. The polite forms don't have the problem and sound more respectful.",
+    "forms": {
+      "دیں": "دیجیے",
+      "کریں": "کیجیے",
+      "کھولیں": "کھولیے",
+      "رکھیں": "رکھیے",
+      "بتائیں": "بتائیے",
+      "اٹھائیں": "اٹھائیے",
+      "پہنچائیں": "پہنچائیے",
+      "گھبرائیں": "گھبرائیے",
+      "پڑھیں": "پڑھیے",
+      "بھیجیں": "بھیجیے",
+      "دیکھیں": "دیکھیے",
+      "سنیں": "سنیے",
+      "آئیں": "آئیے",
+      "جائیں": "جائیے"
+    }
+  },
+  "weak_endings": {
+    "why": "A paragraph's last consonant gets swallowed (گائیڈ came out as گائب). Keep these words away from the very end of a paragraph, or check that the ending is heard.",
+    "words": [
+      "گائیڈ",
+      "کوڈ",
+      "اکاؤنٹ",
+      "ویب سائٹ",
+      "ایپ"
+    ]
+  }
+}

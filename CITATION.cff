@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use urdu-tts-pronunciation in your work, please cite it as below."
+title: "urdu-tts-pronunciation"
+abstract: "An open source agent skill and Python toolkit that helps AI voices pronounce Urdu correctly: a list of words text-to-speech engines get wrong with the spelling that fixes each, a script linter, and a take checker that uses Whisper transcripts in Urdu, English and Devanagari to find mispronounced, swallowed or repeated words before a person listens."
+type: software
+authors:
+  - given-names: "Syed Farhan"
+    family-names: "Ahmed"
+    alias: "SFA"
+    affiliation: "NexaForge"
+    email: "nexaforge.services@gmail.com"
+repository-code: "https://github.com/farhan6667/urdu-tts-pronunciation"
+url: "https://nexaforge.eu.cc/"
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-15"
+keywords:
+  - urdu
+  - text-to-speech
+  - tts
+  - pronunciation
+  - voice-over
+  - narration
+  - whisper
+  - faster-whisper
+  - speech-synthesis
+  - claude-skill
+  - agent-skills

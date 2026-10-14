@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+models/
+*.wav
+*.mp3
+*.flac
+*.m4a
+.venv/
+dist/
+build/
+*.egg-info/
+.ai-media/
