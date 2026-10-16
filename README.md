@@ -9,6 +9,13 @@
 
 **urdu-tts-pronunciation is a free agent skill and Python toolkit that helps AI text-to-speech voices pronounce Urdu correctly, by fixing the script before audio is made and ranking recorded takes with Whisper.** It's for anyone making Urdu voice-overs, narration, promos or explainers with an AI voice. Built and tested with an OmniVoice voice clone; the checker only listens to audio, so it works on takes from any engine.
 
+<p align="center">
+  <a href="https://opencollective.com/nexaforge-oss"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/img/sponsor-button-dark.webp">
+    <img src="docs/img/sponsor-button-light.webp" width="480" alt="Support NexaForge: an animated gold Support button that opens the sponsor page">
+  </picture></a>
+</p>
+
 [Why](#ai-voices-get-urdu-wrong-in-the-same-places) • [Quick start](#quick-start-in-30-seconds) • [The word list](#the-words-and-the-fixes) • [Checking takes](#it-ranks-your-takes-before-you-listen) • [With an AI agent](#use-it-with-claude-code-codex-or-another-agent) • [No coding](#no-coding-paste-a-prompt) • [FAQ](#frequently-asked-questions) • [Contribute](#help-it-learn-more-words)
 
 </div>
