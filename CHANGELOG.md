@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- `SKILL.md`: new section "Text for the voice is not text for the screen" (voice spelling versus page spelling, پاسکی as one word, counters, one spelling per word, no arrows in Urdu lines, right to left text drawn into images, longer Urdu titles).
+
 ## 0.1.0 (2026-10-15)
 
 First public release.
