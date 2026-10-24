@@ -134,6 +134,25 @@ Rules for the checking:
   `ffmpeg -i start.wav -i end.wav -filter_complex "[0][1]acrossfade=d=0.02" line.wav`
 - Keep approved takes untouched. Re-voice only the lines that changed.
 
+## Text for the voice is not text for the screen
+
+The table above is for the script the voice reads. Words shown on a page or in a video
+caption follow the spelling readers expect, and that is sometimes different:
+
+- Voice script: **سٹیپ**. Page and captions: **اسٹیپ** (and "اسٹیپ بائی اسٹیپ", which a
+  department asked for in place of "قدم بہ قدم"). Keep two versions of a line when both exist.
+- Say **پاسکی** (one word) for "passkey", never "پاس کی": two words read as "of the pass".
+- Write counters the way the people who own the page asked. One team wanted "موضوع 1 تا 12"
+  over "1 از 12". Ask once, then use it everywhere (progress card, image counter, lightbox).
+- Pick one spelling for each everyday word across the whole page (واٹس ایپ, لاگ اِن, بیک اپ,
+  پرائیویسی, ڈاؤن لوڈ). Menu names that the phone shows in English stay in English, as written
+  on the phone.
+- No arrows inside an Urdu line: they flip in right to left text. Say it in words.
+- When text is drawn into an image, set each line right to left with its own isolation.
+  A line that starts with an English word otherwise comes out mirrored.
+- Long titles: Urdu runs about 40 percent longer than the English. Check the layout again
+  after changing a title, at the smallest and the largest screen.
+
 ## When someone corrects a word
 
 Add it to your own lexicon file and pass it with `--lexicon my-words.json` (it is added

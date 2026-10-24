@@ -2,6 +2,8 @@
 
 ## 0.1.1 (2026-10-24)
 
+- `SKILL.md`: new section "Text for the voice is not text for the screen" (voice spelling versus page spelling, پاسکی as one word, counters, one spelling per word, no arrows in Urdu lines, right to left text drawn into images, longer Urdu titles).
+
 Hardening after a thorough QA pass:
 
 - `ci.yml`: `actions/checkout` and `actions/setup-python` pinned to commit SHAs instead of
