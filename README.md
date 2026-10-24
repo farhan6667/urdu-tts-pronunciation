@@ -36,7 +36,7 @@ cd urdu-tts-pronunciation
 python skills/urdu-tts-pronunciation/scripts/lint_script.py examples/script.txt
 ```
 
-On macOS and Linux use `python3`. On Windows use `py` if `python` opens the Microsoft Store. The linter needs nothing but Python, and it tells you what to change before you spend a single credit on audio. This is the real output for the five-line [example script](examples/script.txt):
+On macOS and Linux use `python3`. On Windows use `py` if `python` opens the Microsoft Store. The linter needs nothing but Python, and it tells you what to change before you spend a single credit on audio. This is the real output for the five-line [example script](examples/script.txt), trimmed:
 
 ```
 line 1: [fix] خفیہ  ->  خُفیہ
