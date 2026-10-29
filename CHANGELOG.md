@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Lexicon: eight new rules heard going wrong in a real Urdu narration (2026-10-29), each with Hindi transcript
+  patterns so `check_takes.py` catches them: the letters ڈی آئی before a name (run together with a soft d),
+  ڈیزائن, ٹیپ, ٹیب and ڈاؤن لوڈ (the voice softens retroflex ڈ and ٹ), اسکرین (heard as "saacreen" or
+  "uscreen"; write اِسکرین), and بائیں / دائیں (the final noon drops). بہتری added to the weak paragraph endings.
+- Tests for all of them (67 tests).
+
 ## 0.1.1 (2026-10-24)
 
 - `SKILL.md`: new section "Text for the voice is not text for the screen" (voice spelling versus page spelling, پاسکی as one word, counters, one spelling per word, no arrows in Urdu lines, right to left text drawn into images, longer Urdu titles).
