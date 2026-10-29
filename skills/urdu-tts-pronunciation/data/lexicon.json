@@ -108,6 +108,118 @@
       "heard": {
         "any_good": "सा[इईय]बर|cyber"
       }
+    },
+    {
+      "id": "di-letters",
+      "find": "ڈی آئی",
+      "use": "rewrite: say the product's own name without the letters",
+      "roman": "D I (letters before a name)",
+      "wrong": "diyai / dee-ee run together, soft d",
+      "why": "The retroflex ڈ came out as a soft د and the two letters ran together (दियाई). Voice the name without the initials (the full name can stay on screen).",
+      "heard": {
+        "hi_good": "डी आई",
+        "hi_bad": "दियाई|दिआई|दी आई|दीआई"
+      },
+      "level": "check",
+      "source": "Heard 2026-10-29 in the DI Version Lens video (di-narrator voice), confirmed with check_takes' Hindi transcript."
+    },
+    {
+      "id": "design",
+      "find": "ڈیزائن",
+      "use": "rewrite around it (بناوٹ، تجویز، شکل)",
+      "roman": "design",
+      "wrong": "dizain with a soft d",
+      "why": "The voice softens the retroflex ڈ in ڈیزائن every take tried.",
+      "heard": {
+        "hi_good": "डिज़ा|डिजा|डीज़ा|डीजा",
+        "hi_bad": "दिज़ा|दिजा|दीज़ा|दीजा"
+      },
+      "level": "check",
+      "source": "Heard 2026-10-29 in the DI Version Lens video (di-narrator voice), confirmed with check_takes' Hindi transcript."
+    },
+    {
+      "id": "tap",
+      "find": "ٹیپ",
+      "use": "rewrite: بٹن دبائیے / ... دبائیں گے",
+      "roman": "tap",
+      "wrong": "tep with a soft t",
+      "why": "ٹیپ came out with a soft ت (तेप); 'press the button' says the same thing.",
+      "heard": {
+        "hi_good": "टैप|टेप",
+        "hi_bad": "तैप|तेप|तीप|तेब"
+      },
+      "level": "check",
+      "source": "Heard 2026-10-29 in the DI Version Lens video (di-narrator voice), confirmed with check_takes' Hindi transcript."
+    },
+    {
+      "id": "tab",
+      "find": "ٹیب",
+      "use": "rewrite: ... کے حصے میں",
+      "roman": "tab (a dashboard tab)",
+      "wrong": "teb with a soft t",
+      "why": "ٹیب came out as تیب.",
+      "heard": {
+        "hi_good": "टैब|टेब",
+        "hi_bad": "तैब|तेब|तीब"
+      },
+      "level": "check",
+      "source": "Heard 2026-10-29 in the DI Version Lens video (di-narrator voice), confirmed with check_takes' Hindi transcript."
+    },
+    {
+      "id": "download",
+      "find": "ڈاؤن لوڈ",
+      "use": "rewrite: حاصل کیجیے / محفوظ کیجیے",
+      "roman": "download",
+      "wrong": "daun lod with a soft d",
+      "why": "The retroflex ڈ came out soft (दौनलोड).",
+      "heard": {
+        "hi_good": "डाउन|डाऊन",
+        "hi_bad": "दाउन|दौन|दाऊन"
+      },
+      "level": "check",
+      "source": "Heard 2026-10-29 in the DI Version Lens video (di-narrator voice), confirmed with check_takes' Hindi transcript."
+    },
+    {
+      "id": "screen",
+      "find": "اسکرین",
+      "use": "اِسکرین",
+      "roman": "screen",
+      "wrong": "saacreen / uscreen",
+      "why": "Listeners heard 'saacreen' or 'uscreen'; the owner wants 'iscreen'. A zer under the alif asks for the i. Verify every take: being confirmed on more takes.",
+      "heard": {
+        "hi_good": "इस्क्रीन|इसक्रीन|इस्करीन",
+        "hi_bad": "उस्क्रीन|उसक्रीन|सक्रीन|साक्रीन"
+      },
+      "level": "check",
+      "source": "Heard 2026-10-29 in the DI Version Lens video (di-narrator voice), confirmed with check_takes' Hindi transcript."
+    },
+    {
+      "id": "left",
+      "find": "بائیں",
+      "roman": "left",
+      "wrong": "baai / bhaain",
+      "heard": {
+        "hi_good": "बाएं|बाईं",
+        "hi_bad": "भाईं|भाएं|\\bबाई\\b"
+      },
+      "use": "rewrite: پہلا / دوسرا (فون، حصہ)",
+      "level": "check",
+      "source": "Heard 2026-10-29 in the DI Version Lens video (di-narrator voice), confirmed with check_takes' Hindi transcript.",
+      "why": "The final noon dropped mid-sentence and بائیں was heard as بھائیں."
+    },
+    {
+      "id": "right",
+      "find": "دائیں",
+      "roman": "right",
+      "wrong": "daai",
+      "heard": {
+        "hi_good": "दाएं|दाईं",
+        "hi_bad": "\\bदाई\\b"
+      },
+      "use": "rewrite: پہلا / دوسرا (فون، حصہ)",
+      "level": "check",
+      "source": "Heard 2026-10-29 in the DI Version Lens video (di-narrator voice), confirmed with check_takes' Hindi transcript.",
+      "why": "The final noon dropped mid-sentence and بائیں was heard as بھائیں."
     }
   ],
   "latin_letters": {
@@ -175,7 +287,8 @@
       "کوڈ",
       "اکاؤنٹ",
       "ویب سائٹ",
-      "ایپ"
+      "ایپ",
+      "بہتری"
     ]
   }
 }
